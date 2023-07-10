@@ -1,0 +1,22 @@
+/* mainPost */
+.mainP {
+    max-width: 800px;
+    height: 700px;
+    margin: auto;
+}
+.mainTitle {
+   margin-bottom: 5px;
+  }
+.date {
+    margin-top: 0px;
+    padding: 4px;
+}
+.mainText{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+
+    line-height: 1.5;
+  }

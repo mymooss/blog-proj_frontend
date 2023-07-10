@@ -1,0 +1,32 @@
+  /*Postbox.css*/
+  .postimg{
+    width: 195px;
+    height: 105px;
+    object-fit: cover;
+  }
+  .postbox{
+    text-decoration-line: none; 
+    color: black; 
+    width: 195px;
+    height: 100px;
+  
+  }
+  .postbox_size {
+  width: 195px;
+  height: 200px;
+  color: black;
+}
+.article_title{
+    height: 0.1px;
+    margin-block-start: 6px;
+  }
+.article{
+    
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        line-height: 1.7;
+
+ }

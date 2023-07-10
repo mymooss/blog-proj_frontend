@@ -1,0 +1,99 @@
+
+.container {
+    
+  }
+.button {
+    position: relative;
+    left: 400px; 
+    top: 10px;
+    width: 40px;
+    height: 40px;
+    z-index: 99;
+    transition: 0.8s ease;
+    border:none;
+    /* border: 2px solid #202020;  */
+    background-color: white;
+    
+    overflow: hidden;
+}
+.content {
+    padding: 40px 40px 0 20px;
+    position: relative;
+    width: 100%;
+    color: black;
+}
+.sidebar {
+    background-color: white;
+    /* border-right: 4px solid #202020; */
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: -300px;
+    transition: 0.4s ease;
+    /* color: #202020; */
+    height: 100%;
+    z-index: 99;
+    border-color: #000;
+}
+.view{
+    font-size: x-small;
+    font-weight: lighter;
+}
+  
+.menu{
+    font-weight: ligther;
+    top: 10px;
+}
+.button_menu{
+  display: inline-block;
+  width: 10px;
+  height: 40px;
+  position: relative;
+  cursor: pointer;
+}
+
+.button_menu span {
+  display: block;
+  width: 90%;
+  height: 1px;
+  background-color: #000;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-90%);
+}
+
+.button_menu span:nth-child(1) {
+  top:40%;
+}
+
+.button_menu span:nth-child(2) {
+  top: 45%;
+}
+
+.button_menu span:nth-child(3) {
+  bottom: 0;
+}
+.button {
+  position: relative;
+  left: 400px; 
+  top: 10px;
+  width: 40px;
+  height: 40px;
+  z-index: 99;
+  transition: 0.8s ease;
+  border:none;
+  /* border: 2px solid #202020;  */
+  background-color: white;
+  
+  overflow: hidden;
+}
+li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none; 
+  color: black; 
+
+}

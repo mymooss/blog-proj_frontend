@@ -1,0 +1,16 @@
+.styleHeader{
+    display : flex;
+    float:left;
+    justify-content:space-around;
+    width:100%;
+    height:50px;
+    border-bottom-style:solid;
+    border-color: gainsboro;
+    border-width: 0.5px;
+    padding:30px;
+}
+.title{
+    margin:0 auto;
+    color:rgb(217, 29, 61);
+    text-align:center;
+}

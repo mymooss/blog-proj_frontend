@@ -1,0 +1,15 @@
+/*Contents.css*/
+.big_postbox{
+    list-style: none;
+    width:500px;
+  }
+.dual_postbox{
+    float: left;
+    margin-right: 40px;
+    margin-left:10px;
+    list-style: none;
+    width: 200px;
+}
+li{
+  list-style: none;
+}

@@ -1,0 +1,269 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  
+  p {
+    width: 195px;
+    height: 200px;
+  
+  }
+  
+      
+  .postimg{
+    width: 195px;
+    height: 105px;
+    object-fit: cover;
+  }
+  
+  h5 {
+    height: 0.1px;
+    margin-block-start: 6px;
+  }
+  
+  main{
+    /* height: 900px; */
+    padding: 1rem;
+    height: 100%; 
+  }
+  
+  header{
+    
+    /* height: 80px; */
+  
+    height: 55px;
+    padding: 1rem;
+    /* color: red; */
+    background: white;
+    font-weight: 500;
+    /* display: flex; */
+    justify-content: space-between;
+    align-items: center;
+    border-bottom-color:black;
+  
+    
+    
+  }
+  
+  
+  .inner-box{
+    padding-left: 50rem;
+    padding-right: 25rem;
+    height: 100%;
+  
+  }
+  
+  /* li {
+    display: inline;
+   
+  } */
+  
+  .inner-header{
+    padding-left: 50rem;
+    /* /* left: 5rem; */
+    height: 100%;
+  
+  }
+  
+  
+  
+  
+  .container {
+    background-color: #E3ECF1;
+  }
+  .sidebar {
+    background-color: white;
+    /* border-right: 4px solid #202020; */
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: -300px;
+    transition: 0.4s ease;
+    /* color: #202020; */
+    height: 100%;
+    z-index: 99;
+    border-color: #000;
+  }
+   .button {
+    position: relative;
+    left: 400px; 
+    top: 10px;
+    width: 40px;
+    height: 40px;
+    z-index: 99;
+    transition: 0.8s ease;
+    border:none;
+    /* border: 2px solid #202020;  */
+    background-color: white;
+    
+    overflow: hidden;
+  }
+  .openBtn {
+    width: 100%;
+    height: 100%;
+    
+  } 
+  
+  
+  
+  
+  
+  .content {
+    padding: 40px 40px 0 20px;
+    position: relative;
+    width: 100%;
+    color: black;
+  }
+  .icon {
+    margin: 0;
+    color: #202020;
+  }
+  
+  .button_menu{
+    display: inline-block;
+    width: 10px;
+    height: 40px;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .button_menu span {
+    display: block;
+    width: 90%;
+    height: 1px;
+    background-color: #000;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-90%);
+  }
+  
+  .button_menu span:nth-child(1) {
+    top:40%;
+  }
+  
+  .button_menu span:nth-child(2) {
+    top: 45%;
+  }
+  
+  .button_menu span:nth-child(3) {
+    bottom: 0;
+  }
+  
+  .big_postbox{
+    list-style: none;
+    width:500px;
+  } 
+  
+  
+  .dual_postbox{
+    float: left;
+    margin-right: 40px;
+   
+  }
+  
+  li{
+    list-style: none;
+  }
+  
+  a{
+    text-decoration: none; 
+    color: black; 
+  
+  }
+  
+  .view{
+    font-size: x-small;
+    font-weight: lighter;
+  }
+  
+  .menu{
+    font-weight: ligther;
+    top: 10px;
+  }
+  
+  .logo{
+    width: 60px;
+    height: 30px;
+    vertical-align: middle;
+    padding-left: 14rem;
+    
+  }
+  
+  .search-icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .search-icon .handle {
+    width: 2px;
+    height: 8px;
+    background-color: #000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .search-icon .glass {
+    width: 12px;
+    height: 12px;
+    border: 2px solid #000;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-sizing: content-box;
+  }
+  
+  .search-icon .glass:before {
+    content: "";
+    display: block;
+    width: 3px;
+    height: 3px;
+    background-color: #000;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .search-icon .glass:after {
+    content: "";
+    display: block;
+    width: 5px;
+    height: 5px;
+    border-top: 2px solid #000;
+    border-right: 2px solid #000;
+    transform: rotate(-45deg);
+    position: absolute;
+    top: calc(50% + 1px);
+    left: calc(50% + 1px);
+    box-sizing: content-box;
+  }
+  
+  .dual_postbox{
+    float: left;
+    margin-right: 40px;
+   
+  }
+  
+  .postimg{
+    width: 195px;
+    height: 105px;
+    object-fit: cover;
+  }
