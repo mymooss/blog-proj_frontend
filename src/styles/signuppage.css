@@ -1,0 +1,67 @@
+/* signuppage.css */
+
+.signUpFormBox {
+    width:315px;
+    height: 100vh; 
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+.backBtn {
+    margin: 20px;
+}
+
+h4 {
+    margin-bottom: 0px;
+    margin-left: 30px;
+}
+
+input {
+    margin: 5px;
+    margin-left: 30px;
+    width: 250px;
+    height: 30px;
+    font-weight: bold;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: black;
+}
+
+.inputId {
+    margin: 5px;
+    margin-left: 30px;
+    width: 195px;
+    height: 30px;
+    font-weight: bold;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: black;
+}
+
+.overLapBtn {
+    width: 50px;
+    margin: 0px;
+    font-size: 12px;
+    color: whitesmoke;
+    background-color: #333;
+}
+
+.overLapBtn:hover {
+    background-color: #D13939;
+}
+ 
+.signUpBtn {
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 255px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: #333;
+    color: white;
+}
+
+.signUpBtn:hover {
+    background-color: #D13939;
+}

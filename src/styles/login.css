@@ -1,0 +1,75 @@
+/* logo.css */
+.loginlogo{
+    width:200px;
+    height:70px;
+    margin-left:100px;
+    margin-top: 50px;
+ }
+ .loginlogo2{
+    width:320px;
+    height:130px;
+    margin-left: 350px;
+    margin-top: 20px;
+ }
+ .loginmain{
+     background-color: rgb(31, 30, 30);
+     width:100;
+     height: 1200px;
+ }
+ .loginhead{
+     width:100px;
+     height: 100px;
+
+     background-color: rgb(31, 30, 30) ;
+ }
+ /* .loginmain{
+     background-color: rgb(31, 30, 30) ;
+ } */
+ /* .root{
+     background-color: rgb(31, 30, 30) ;
+ } */
+
+ .loginmain {
+    text-align: center;
+    /* margin-top: 200px; */
+  }
+  /* h1 {
+    margin-bottom: 20px;
+  } */
+
+  input {
+    padding: 40px;
+    margin-bottom: 10px;
+    width: 500px;
+    border-radius: 5px;
+  }
+
+  .loginbutton{
+    padding: 30px 270px;
+    background-color: rgb(177, 175, 175);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+.id_box{
+    margin-top: 170px;
+
+}
+.logout{
+    margin-top:160px;
+    padding: 30px 270px;
+    background-color: rgb(177, 175, 175);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.radio-label{
+    color:white;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+p{
+  color: white;
+}
