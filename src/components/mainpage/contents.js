@@ -10,7 +10,7 @@ const Contents = () => {
         <li class="dual_postbox"><Postbox/></li>
         <li class="dual_postbox"><Postbox/></li>
         <li class="dual_postbox"><Postbox/></li>
-    </ul>
+    </ul> 
    </div>
   )
 }

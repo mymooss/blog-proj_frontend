@@ -1,6 +1,6 @@
 import React from "react";
 import '../../styles/writepost.css'
-const Write = (props) => {
+const Write = (props) => { 
     return (
         <div>
             <div>

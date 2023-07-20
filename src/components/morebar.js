@@ -6,4 +6,4 @@ const MoreBar = () => {
     )
 }
 
-export default MoreBar;
+export default MoreBar; 

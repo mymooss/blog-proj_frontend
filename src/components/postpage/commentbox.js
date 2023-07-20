@@ -17,7 +17,7 @@ const componentbox = (props)=>{
                 <div id='comment'>
                     <p style={{marginTop:'0px'}}>좋은글이네요</p>
                 </div>
-            </div>
+            </div> 
         </div>
 
     답글

@@ -10,7 +10,7 @@ const Nav = ({ width=280, children }) => {
     // button 클릭 시 토글
     const toggleMenu = () => {
       if (xPosition < 0) {
-        setX(0);
+        setX(0);  
         setOpen(true);
       } else {
         setX(-width);

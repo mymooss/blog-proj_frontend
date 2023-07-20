@@ -7,7 +7,7 @@ const Footer = () =>{
             <div>
                 <h1>ABOUT ME</h1>
                 <p>A cinematic routine.</p>
-            </div>
+            </div> 
             <div>
                 <h1>
                 LINK

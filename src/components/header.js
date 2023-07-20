@@ -8,7 +8,7 @@ const header=(props)=> {
                
             </div>
             <div>
-			    <h1 className='title'>TASTE</h1>
+			    <h1 className='title'>TASTE</h1> 
             </div>
             <div>
                 서치

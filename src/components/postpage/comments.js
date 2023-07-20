@@ -12,7 +12,7 @@ const Comments = () => {
     setCommentBoxes(prevBoxes => prevBoxes.slice(0, -1));
   };
 
-  return (
+  return ( 
     <div>
       댓글 수 {commentBoxes.length}
       {commentBoxes}
