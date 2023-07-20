@@ -1,7 +1,7 @@
 import React from "react";
 import {Link} from 'react-router-dom';
-import MainPost from "../components/mainpage/mainpost";
-import Comments from "../components/postpage/comments";
+import MainPost from "../components/mainPage/MainPost";
+import Comments from "../components/postPage/Comments";
 const postpage= () => {
     return(
         <div>

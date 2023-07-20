@@ -1,5 +1,3 @@
-/* signuppage.css */
-
 .signUpFormBox {
     width:315px;
     height: 100vh; 
@@ -45,6 +43,7 @@ input {
     font-size: 12px;
     color: whitesmoke;
     background-color: #333;
+    border: none;
 }
 
 .overLapBtn:hover {
@@ -64,4 +63,18 @@ input {
 
 .signUpBtn:hover {
     background-color: #D13939;
+}
+
+
+
+.passwordCkeck {
+    margin-left: 30px;
+}
+
+p {
+    margin-left: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #D13939;
+    font-size: small;
 }

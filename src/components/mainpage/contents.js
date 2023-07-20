@@ -1,6 +1,6 @@
 import React from 'react'
-import Postbox from '../postbox'
-import "../../styles/Contents.css"
+import Postbox from '../PostBox'
+import "../../styles/contents.css"
 
 const Contents = () => {
   return (

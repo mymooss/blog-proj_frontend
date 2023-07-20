@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Commentbox from './commentbox';
+import Commentbox from './CommentBox';
 
 const Comments = () => {
   const [commentBoxes, setCommentBoxes] = useState([]);

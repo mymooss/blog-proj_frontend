@@ -1,14 +1,14 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route} from 'react-router-dom';
-import Header from './components/header';
-import Footer from './components/footer';
+import Header from './components/Header';
+import Footer from './components/Footer';
 import Main from './pages/mainpage';
 import Postlist from './pages/postlistpage'
 import Postpage from './pages/postpage'
 import Signin from './pages/signinpage';
 import Signup from './pages/signuppage';
-import Nav from './components/nav';
-import Writepost from './components/postpage/writepost';
+import Nav from './components/Nav';
+import Writepost from './components/postPage/WritePost';
 
 
 const App = () => {

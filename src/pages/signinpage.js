@@ -27,7 +27,7 @@ const Login=()=> {
           <p>로그인 상태입니다.</p>
           <button onClick={handleLogout} className="logout">로그아웃</button>
         </>
-      ) : (
+       ) : (
         <>
         <div className="id_box">
           <input

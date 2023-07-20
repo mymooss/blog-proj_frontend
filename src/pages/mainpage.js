@@ -1,7 +1,7 @@
 import {Link} from 'react-router-dom'
-import MainPost from '../components/mainpage/mainpost';
-import MoreBar from '../components/morebar';
-import Contents from '../components/mainpage/contents';
+import MainPost from '../components/mainPage/MainPost';
+import MoreBar from '../components/MoreBar';
+import Contents from '../components/mainPage/Contents';
 import React from 'react'
 const Home = () => {
   return(
